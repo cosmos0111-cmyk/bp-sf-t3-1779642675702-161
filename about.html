@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-raw-concrete">
+<meta name="description" content="SF-T3 보안랩 정보 페이지: 마포 네트워크 보안 PBN 빌더의 상세 서비스, 운영 프로세스, 기술 스택 및 고객 사례 데이터. 12년 이상 현장 경험 기반의 투명한 정보 제공.">
+<meta name="keywords" content="PBN 빌더 정보, 네트워크 보안 마포, SF-T3 보안랩, PBN 구축 프로세스, 티어3 PBN 기술, 보안 인프라, 마포 보안 업체">
+<meta name="author" content="SF-T3 보안랩">
+<link rel="canonical" href="https://sf-t3-1779642675702-161.pages.dev/info">
+<meta property="og:title" content="SF-T3 보안랩 | 네트워크 보안 & PBN 빌더 정보">
+<meta property="og:description" content="마포 지역 네트워크 보안 및 PBN 구축 서비스의 상세 정보. 12년 이상의 현장 경험과 500+ 고객 데이터 기반의 투명한 운영 정보를 제공합니다.">
+<title>정보 | SF-T3 보안랩 — 네트워크 보안 & PBN 빌더</title>
+<style>
+/* RESET & BASE */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{font-size:16px;scroll-behavior:smooth}
+body{font-family:'Noto Sans KR','Malgun Gothic',-apple-system,BlinkMacSystemFont,sans-serif;background:#1a1a1a;color:#e0e0e0;line-height:1.7;min-height:100vh}
+img,svg{max-width:100%;height:auto;display:block}
+/* TYPOGRAPHY — oversized & raw */
+h1,h2,h3,h4,h5,h6{font-weight:800;line-height:1.1;text-transform:uppercase;letter-spacing:-0.02em;color:#f5f5f5}
+h1{font-size:clamp(2.8rem,8vw,5.5rem);margin-bottom:.5em;border-left:8px solid #ff3b3b;padding-left:.3em}
+h2{font-size:clamp(2rem,5vw,3.5rem);margin-bottom:.8em;border-bottom:4px solid #ff3b3b;padding-bottom:.2em;display:inline-block}
+h3{font-size:clamp(1.4rem,3vw,2.2rem);margin-bottom:.6em}
+p{font-size:clamp(1rem,1.8vw,1.25rem);margin-bottom:1.2em;max-width:70ch;color:#c0c0c0;font-weight:300}
+a{color:#ff3b3b;text-decoration:none;font-weight:700;transition:all .2s}
+a:hover{color:#fff;background:#ff3b3b;padding:0 4px}
+/* LAYOUT — full bleed, asymmetric, spaced */
+.container{max-width:1360px;margin:0 auto;padding:0 20px}
+section{padding:clamp(60px,10vh,120px) 0;border-bottom:2px solid #2a2a2a;position:relative}
+section:last-of-type{border-bottom:none}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,4vw,60px)}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(24px,3vw,50px)}
+.card{background:#222;padding:clamp(24px,3vw,48px);border:2px solid #333;box-shadow:8px 8px 0 rgba(255,59,59,0.15);transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translate(-4px,-4px);box-shadow:12px 12px 0 rgba(255,59,59,0.25)}
+/* NAVIGATION */
+nav{position:fixed;top:0;left:0;width:100%;z-index:1000;background:rgba(26,26,26,0.95);backdrop-filter:blur(8px);border-bottom:2px solid #333;padding:0 20px}
+.nav-inner{max-width:1360px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;height:70px}
+.logo{font-weight:900;font-size:1.6rem;color:#f5f5f5;text-transform:uppercase;letter-spacing:-0.04em;border-left:6px solid #ff3b3b;padding-left:12px}
+.logo span{color:#ff3b3b}
+.nav-links{display:flex;gap:32px;list-style:none}
+.nav-links a{color:#c0c0c0;font-weight:600;font-size:1rem;padding:6px 0;border-bottom:2px solid transparent;transition:.2s}
+.nav-links a:hover,.nav-links a.active{color:#fff;border-bottom-color:#ff3b3b;background:transparent;padding:6px 0}
+.tel-link{background:#ff3b3b;color:#fff!important;padding:10px 20px!important;border-radius:4px;font-weight:800;border:none!important}
+.tel-link:hover{background:#cc3030!important;color:#fff!important}
+/* HAMBURGER */
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:8px}
+.hamburger span{width:28px;height:3px;background:#f5f5f5;transition:.3s}
+/* HERO */
+.hero{min-height:80vh;display:flex;align-items:center;padding-top:90px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;right:0;width:40%;height:100%;background:repeating-linear-gradient(45deg,transparent,transparent 20px,rgba(255,59,59,0.03) 20px,rgba(255,59,59,0.03) 40px);z-index:0}
+.hero-content{position:relative;z-index:1;max-width:800px}
+.hero h1{font-size:clamp(2.2rem,6vw,4.5rem);border-left-color:#ff3b3b}
+.hero p{font-size:clamp(1.1rem,2vw,1.4rem);max-width:600px}
+.hero .stats{display:flex;gap:40px;margin-top:32px;flex-wrap:wrap}
+.hero .stat{font-weight:800;font-size:clamp(1.6rem,3vw,2.8rem);color:#ff3b3b;line-height:1}
+.hero .stat span{display:block;font-size:.6em;font-weight:400;color:#888;text-transform:uppercase;letter-spacing:1px}
+/* FOOTER */
+footer{background:#111;padding:40px 20px;border-top:4px solid #ff3b3b;text-align:center}
+footer p{font-size:.9rem;color:#666;margin:0}
+footer a{color:#ff3b3b}
+/* RESPONSIVE 768px */
+@media(max-width:768px){
+.grid-2,.grid-3{grid-template-columns:1fr}
+.nav-links{display:none;position:absolute;top:70px;left:0;width:100%;background:#1a1a1a;flex-direction:column;padding:20px;gap:20px;border-bottom:4px solid #ff3b3b}
+.nav-links.open{display:flex}
+.hamburger{display:flex}
+.hero{min-height:60vh;padding-top:80px}
+.hero .stats{flex-direction:column;gap:20px}
+h1{font-size:clamp(1.8rem,5vw,3rem)}
+.card{margin-bottom:20px}
+}
+/* custom extras */
+.data-row{display:flex;justify-content:space-between;border-bottom:1px solid #333;padding:12px 0;font-size:1rem}
+.data-label{font-weight:600;color:#999}
+.data-value{font-weight:700;color:#f5f5f5}
+.badge{display:inline-block;background:#ff3b3b;color:#fff;font-weight:700;font-size:.8rem;padding:4px 12px;letter-spacing:1px;margin-bottom:12px}
+blockquote{border-left:6px solid #ff3b3b;padding:16px 24px;margin:24px 0;background:#222;font-style:italic;color:#ccc}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="nav-inner">
+<div class="logo">SF<span>-T3</span> 랩</div>
+<button class="hamburger" aria-label="메뉴 열기">
+<span></span><span></span><span></span>
+</button>
+<ul class="nav-links">
+<li><a href="/">홈</a></li>
+<li><a href="/services">서비스</a></li>
+<li><a href="/info" class="active">정보</a></li>
+<li><a href="/portfolio">포트폴리오</a></li>
+<li><a href="/contact" class="tel-link">02-XXX-XXXX</a></li>
+</ul>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container hero-content">
+<div class="badge">EST. 2012 · 마포 본사</div>
+<h1>SF-T3 보안랩<br>정보 & 데이터</h1>
+<p>12년간 축적된 네트워크 보안 및 PBN 구축 노하우를 투명하게 공개합니다. 마포 지역을 기반으로 한 현장 경험과 검증된 기술력이 모든 서비스의 기반입니다.</p>
+<div class="stats">
+<div class="stat">12+<span>연 운영</span></div>
+<div class="stat">500+<span>고객사</span></div>
+<div class="stat">98.6%<span>가동률</span></div>
+<div class="stat">480+<span>PBN 네트워크</span></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>운영 현황 · 2025</h2>
+<div class="grid-2">
+<div class="card">
+<h3>인프라 스펙</h3>
+<div class="data-row"><span class="data-label">서버 위치</span><span class="data-value">마포 · 상암 IDC</span></div>
+<div class="data-row"><span class="data-label">PBN 도메인</span><span class="data-value">487 개</span></div>
+<div class="data-row"><span class="data-label">IP 클래스</span><span class="data-value">/24 C클래스 14개</span></div>
+<div class="data-row"><span class="data-label">평균 응답 시간</span><span class="data-value">23ms</span></div>
+<div class="data-row"><span class="data-label">SSL 커버리지</span><span class="data-value">100%</span></div>
+<div class="data-row"><span class="data-label">백업 주기</span><span class="data-value">매 4시간</span></div>
+</div>
+<div class="card">
+<h3>서비스 성과</h3>
+<div class="data-row"><span class="data-label">링크 지수 상승</span><span class="data-value">평균 +37%</span></div>
+<div class="data-row"><span class="data-label">고객 유지율</span><span class="data-value">94%</span></div>
+<div class="data-row"><span class="data-label">보안 사고</span><span class="data-value">0 건 (12년)</span></div>
+<div class="data-row"><span class="data-label">평균 프로젝트 기간</span><span class="data-value">14일</span></div>
+<div class="data-row"><span class="data-label">NPS 점수</span><span class="data-value">+72</span></div>
+<div class="data-row"><span class="data-label">추천 의뢰 비율</span><span class="data-value">68%</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>PBN 구축 프로세스</h2>
+<div class="grid-3">
+<div class="card">
+<h3>01. 감사</h3>
+<p>기존 링크 프로필과 경쟁사 분석을 통해 티어3 전략을 설계합니다. 도메인 연령, 백링크 품질, IP 다양성을 정밀 진단합니다.</p>
+</div>
+<div class="card">
+<h3>02. 구성</h3>
+<p>마포 IDC 내 전용 서버에서 각 PBN 사이트를 고립된 환경으로 구축합니다. 중복 콘텐츠 및 풋프린트를 제거하는 Brutalist 방식 적용.</p>
+</div>
+<div class="card">
+<h3>03. 워밍</h3>
+<p>Aegis-Warmer 알고리즘을 통해 자연스러운 링크 획득 패턴을 시뮬레이션합니다. 30일간 점진적 워밍 후 메인 캠페인에 투입합니다.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>보안 철학 · 원칙</h2>
+<blockquote>"모든 PBN은 하나의 사이트처럼 보여서는 안 된다. 각각의 사이트가 독립적인 인터넷 시민으로 행동해야 한다." — SF-T3 연구소</blockquote>
+<div class="grid-2">
+<div>
+<p>우리는 스트리트 브루탈리스트 관점에서 보안을 바라봅니다. 불필요한 장식을 제거하고, 본질적인 연결 구조에 집중합니다. 모든 서버는 물리적으로 분리된 하드웨어에서 운영되며, IP 할당은 실제 사용자 패턴을 기반으로 합니다.</p>
+<p>12년간 단 한 건의 보안 침해 사고도 없었습니다. 이는 우연이 아니라 체계적인 격리 정책과 지속적인 모니터링의 결과입니다.</p>
+</div>
+<div>
+<div class="card">
+<h3>기술 스택</h3>
+<div class="data-row"><span class="data-label">OS</span><span class="data-value">AlmaLinux 9 + Hardened</span></div>
+<div class="data-row"><span class="data-label">웹서버</span><span class="data-value">Nginx + ModSecurity</span></div>
+<div class="data-row"><span class="data-label">DNS</span><span class="data-value">Bind9 + DNSSEC</span></div>
+<div class="data-row"><span class="data-label">모니터링</span><span class="data-value">Prometheus + Grafana</span></div>
+<div class="data-row"><span class="data-label">워머 엔진</span><span class="data-value">Aegis-Warmer v3.2</span></div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
