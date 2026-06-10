@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title><![CDATA[마포 PBN 빌더]]></title>
-  <link>https://sf-t3-1779642675702-161.pages.dev</link>
-  <description><![CDATA[마포 네트워크 보안 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-  <language>ko-KR</language>
-  <pubDate>Thu, 28 May 2026 12:24:32 GMT</pubDate>
-  <lastBuildDate>Thu, 28 May 2026 12:24:32 GMT</lastBuildDate>
-  <atom:link href="https://sf-t3-1779642675702-161.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+  <title><![CDATA[네트워크 보안]]></title>
+  <link>https://sf-t3-1779642675702-161.vercel.app</link>
+  <description><![CDATA[네트워크 보안 - PBN 빌더 관련 최신 소식 및 가이드]]></description>
+  <language>ko</language>
+  <pubDate>Wed, 10 Jun 2026 17:11:02 GMT</pubDate>
+  <lastBuildDate>Wed, 10 Jun 2026 17:11:02 GMT</lastBuildDate>
+  <atom:link href="https://sf-t3-1779642675702-161.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
-      <title><![CDATA[마포 PBN 빌더 - 공식 홈페이지 오픈 안내]]></title>
-      <link>https://sf-t3-1779642675702-161.pages.dev/</link>
-      <guid isPermaLink="true">https://sf-t3-1779642675702-161.pages.dev/</guid>
-      <description><![CDATA[마포 네트워크 보안 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-      <pubDate>Thu, 28 May 2026 12:24:32 GMT</pubDate>
+      <title><![CDATA[PBN 빌더 vs PBN 빌더 비교 — 어디가 더 좋을까? 비교 분석]]></title>
+      <link>https://sf-t3-1779642675702-161.vercel.app/posts/compare-002-axf348.html</link>
+      <guid isPermaLink="true">https://sf-t3-1779642675702-161.vercel.app/posts/compare-002-axf348.html</guid>
+      <description><![CDATA[### 구체적 니치 콘텐츠 작성 #### 클래스 카드의 스탯 변화와 밸런스 변경 이유 글룸헤이븐 1판과 2판 사이에 변경된 클래스 카드 7종은 다음과 같은 정확한 스탯 차이를 보입니다: - **클래스 A**: 스탯이 3점 증가했습니다.- **클래스 B**: 스탯이 5점]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[PBN 빌더 처음 알아볼 때 실제로 많이 묻는 질문 5가지]]></title>
+      <link>https://sf-t3-1779642675702-161.vercel.app/posts/qa-001-axf348.html</link>
+      <guid isPermaLink="true">https://sf-t3-1779642675702-161.vercel.app/posts/qa-001-axf348.html</guid>
+      <description><![CDATA[### 구체적 니치 콘텐츠 작성 #### 주제파이트 클럽 영화 전체에 걸쳐 타일러 더든이 등장하기 전 싱글 프레임으로 삽입된 장면 총정리 #### 맥락컬트 영화 비화·숨은 디테일 / 파이트 클럽 싱글 프레임 ## 키워드 컨텍스트이 글의 배경 비즈니스 키워드는 "PBN ]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
     </item>
 </channel>
 </rss>
